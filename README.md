@@ -25,4 +25,37 @@ Song clustering analysis using **EDA, PCA, and K-Means** to create data-driven c
 - Dropped redundant features (`valence`, `loudness`)  
 
 ### Dimensionality Reduction
-- Scaled features with
+- Scaled features with `StandardScaler`  
+- Applied PCA to support effective clustering  
+
+### Clustering
+- K-Means clustering  
+- Optimal k selected using Elbow + Silhouette methods  
+- **Final model: k = 3 clusters**
+
+---
+
+## Results (Cluster Profiles)
+- **Cluster 1 — Most Popular**  
+  Higher danceability & acousticness, lower energy; average year ~1977  
+
+- **Cluster 2 — Live / Extended Tracks**  
+  Highest liveness & duration; average year ~2015  
+
+- **Cluster 0 — High Energy / Experimental**  
+  Highest energy, instrumentalness & speechiness; average year ~2001  
+
+---
+
+## Tools
+Python · pandas · numpy · matplotlib · seaborn · scikit-learn · statsmodels
+
+---
+
+## Key Takeaway
+Musical similarity is driven by **combinations of audio features**, not popularity alone.
+
+---
+
+## About
+**EDA, PCA, and K-Means clustering to create song cohorts using Spotify audio features and interpret what drives musical similarity.**
