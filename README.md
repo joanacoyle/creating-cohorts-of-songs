@@ -52,10 +52,14 @@ Python · pandas · numpy · matplotlib · seaborn · scikit-learn · statsmodel
 
 ---
 
+## Note
+Some pandas Future Warnings appear due to upcoming default changes. These do not affect the analysis or results.
+
+---
+
 ## Key Takeaway
 Musical similarity is driven by **combinations of audio features**, not popularity alone.
 
 ---
-
 ## About
 **EDA, PCA, and K-Means clustering to create song cohorts using Spotify audio features and interpret what drives musical similarity.**
